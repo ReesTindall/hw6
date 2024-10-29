@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List (JSON)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        pre {
+            background-color: #fff;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Product List (JSON)</h1>
+    <pre id="jsonOutput"></pre>
+
+    <script>
+        // JSON data to represent the list of products
+        const products = [
+            {
+                "name": "Vintage T-shirt",
+                "description": "Tie-dye Grateful Dead T-shirt",
+                "price": "$35",
+                "categories": ["clothing", "vintage"]
+            },
+            {
+                "name": "Bluetooth Headphones",
+                "description": "Noise-canceling over-ear headphones",
+                "price": "$120",
+                "categories": ["electronics"]
+            },
+            {
+                "name": "Leather Wallet",
+                "description": "Handcrafted genuine leather wallet",
+                "price": "$40",
+                "categories": ["accessories"]
+            },
+            {
+                "name": "Yoga Mat",
+                "description": "Eco-friendly, non-slip yoga mat",
+                "price": "$25",
+                "categories": ["sports"]
+            },
+            {
+                "name": "Retro Sunglasses",
+                "description": "Classic aviator-style sunglasses",
+                "price": "$30",
+                "categories": ["accessories", "vintage"]
+            },
+            {
+                "name": "Portable Charger",
+                "description": "10,000mAh USB-C portable battery pack",
+                "price": "$25",
+                "categories": ["electronics"]
+            },
+            {
+                "name": "Graphic Hoodie",
+                "description": "Soft fleece hoodie with custom print",
+                "price": "$45",
+                "categories": ["clothing"]
+            },
+            {
+                "name": "Stainless Steel Water Bottle",
+                "description": "Insulated water bottle, 24 oz",
+                "price": "$20",
+                "categories": ["sports"]
+            }
+        ];
+
+        // Display JSON string
+        document.getElementById("jsonOutput").textContent = JSON.stringify(products, null, 2);
+    </script>
+</body>
+</html>
