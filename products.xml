@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <name>Vintage T-shirt</name>
+        <description>Tie-dye Grateful Dead T-shirt</description>
+        <price>$35</price>
+        <category>clothing</category>
+        <category>vintage</category>
+    </product>
+    <product>
+        <name>Bluetooth Headphones</name>
+        <description>Noise-canceling over-ear headphones</description>
+        <price>$120</price>
+        <category>electronics</category>
+    </product>
+    <product>
+        <name>Leather Wallet</name>
+        <description>Handcrafted genuine leather wallet</description>
+        <price>$40</price>
+        <category>accessories</category>
+    </product>
+    <product>
+        <name>Yoga Mat</name>
+        <description>Eco-friendly, non-slip yoga mat</description>
+        <price>$25</price>
+        <category>sports</category>
+    </product>
+    <product>
+        <name>Retro Sunglasses</name>
+        <description>Classic aviator-style sunglasses</description>
+        <price>$30</price>
+        <category>accessories</category>
+        <category>vintage</category>
+    </product>
+    <product>
+        <name>Portable Charger</name>
+        <description>10,000mAh USB-C portable battery pack</description>
+        <price>$25</price>
+        <category>electronics</category>
+    </product>
+    <product>
+        <name>Graphic Hoodie</name>
+        <description>Soft fleece hoodie with custom print</description>
+        <price>$45</price>
+        <category>clothing</category>
+    </product>
+    <product>
+        <name>Stainless Steel Water Bottle</name>
+        <description>Insulated water bottle, 24 oz</description>
+        <price>$20</price>
+        <category>sports</category>
+    </product>
+</products>
